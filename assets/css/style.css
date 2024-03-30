@@ -1,0 +1,63 @@
+
+@font-face{
+    font-family: "Cod";
+    src: url(/assets/fonts/Call\ of\ Ops\ Duty.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+body{
+    font-family: Cod;
+    background-color: #e8e8e8;
+    background-image: url(/assets/img/background.jpg);
+    margin: 0;
+}
+
+.Menu{
+    list-style: none;
+    padding-left: 75px;
+    background: #000000;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: larger;
+    display: flex;
+    padding-left: 8px;
+}
+
+.contener{
+    text-align: center;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    color: #e8e8e8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Menu img{
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 30px;
+    display: block;
+}
+
+.Menu li{
+    text-align: center;
+    display: flex;
+}
+
+.Menu li a:hover{
+    background: #e70505;
+    color: black;
+}
