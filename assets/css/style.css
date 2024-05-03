@@ -6,7 +6,23 @@
     font-style: bold;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
 body{
+
     font-family: Cod;
     background-color: #e8e8e8;
     background-image: url(/assets/img/background.jpg);
@@ -16,10 +32,10 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-}
-
-header{
-    width: 100%;
+    padding-top: 5%;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .Menu{
@@ -92,13 +108,12 @@ header{
 }
 
 .conteiner-btn{
-    padding-left: 180px;
-    width: 80%;
+    padding-left: 10px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
-    flex-wrap: wrap;
+    gap: -12px;
 }
 
 .conteiner-btn button{
@@ -115,14 +130,16 @@ header{
     transition: .3s;
 }
 
-button span{
+button a{
+    color: white;
+    text-decoration: none;
     background-color: #111;
     padding: 16px 24px;
     border-radius: 6px;
     transition: .3s;
 }
 
-button:hover span{
+button:hover a{
     background: none;
 }
 button:active{
